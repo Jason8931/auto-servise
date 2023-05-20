@@ -67,7 +67,7 @@ h6 {
     text-align: center;
 }
 
-.logo{
+.logo {
     display: block;
     max-width: 181px;
     min-width: 81px;
@@ -116,9 +116,7 @@ h6 {
 }
 
 
-.main {
-    
-}
+.main {}
 
 .hero {
     height: 100vh;
@@ -163,7 +161,8 @@ h6 {
     display: inline-block;
     padding: 12px 16px;
 }
-.btn.btn_theme_white{
+
+.btn.btn_theme_white {
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
 }
@@ -179,10 +178,10 @@ h6 {
     text-align: center;
     border-radius: 4px;
     padding: 16px 10px;
-    
+
 }
 
-.hero__advantage{
+.hero__advantage {
     flex: 0 1 276px;
     border: 2px solid #FFFFFF;
 }
@@ -193,13 +192,13 @@ h6 {
 
 .desc {}
 
-.header__contact{
+.header__contact {
     display: flex;
     column-gap: 52px;
     align-items: center;
 }
 
-.location{
+.location {
     color: #FFFFFF;
     font-style: normal;
     font-size: 16px;
@@ -214,22 +213,22 @@ h6 {
     line-height: 1.17;
 }
 
-.hero .title{
+.hero .title {
     margin-bottom: 17px;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px
 }
 
-.hero__call-to-action span{
-    color:coral;
+.hero__call-to-action span {
+    color: coral;
 }
 
-.hero_container{
+.hero_container {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -237,7 +236,7 @@ body{
 }
 
 @media (max-width: 960px) {
-    .container{
+    .container {
         max-width: 898px;
     }
 
@@ -245,21 +244,22 @@ body{
         max-width: 181px;
     }
 
-    .header .location{
+    .header .location {
         display: none;
     }
-    .title{
+
+    .title {
         font-size: 42px;
     }
 
-    .hero__subtittle{
+    .hero__subtittle {
         font-size: 22px;
         margin-bottom: 70px;
     }
 }
 
 @media (max-width: 768px) {
-    .container{
+    .container {
         max-width: 722px;
     }
 
@@ -271,13 +271,13 @@ body{
         display: none;
     }
 
-    .header__contact{
+    .header__contact {
         display: none;
     }
 }
 
 @media (max-width: 320px) {
-    .container{
+    .container {
         max-width: 300px;
     }
 
@@ -286,10 +286,7 @@ body{
     }
 }
 
-@media (max-width: 960px) {
-    
-
-}
+@media (max-width: 960px) {}
 
 
 .podrobno_content {
@@ -297,8 +294,9 @@ body{
     height: 646px;
     width: 100%;
 }
-.shapka {
-}
+
+.shapka {}
+
 .name_podrobno {
     font-size: 54px;
     font-weight: 600;
@@ -309,110 +307,128 @@ body{
     margin-right: 0;
     position: relative;
 }
+
 .opisanie_podrobno {
     font-size: 20px;
     font-weight: 300;
 }
+
 .osnov_chast {
     display: inline-flex;
     height: 100%;
     width: 800px;
 }
-.left{
+
+.left {
     height: 100%;
     width: 400px;
     text-align: left;
 }
 
-.right{
+.right {
     height: 100%;
     width: 400px;
     text-align: left;
 }
 
 .pervi {
+    position: relative;
 }
+
 .nol_pervi {
     font-size: 100px;
     font-weight: 700;
     margin: 0;
     color: #E7E7E7;
+    position: relative;
 }
+
 .pervi_opisanie {
-    margin-top: 0;
-    margin-left: 30px;
-    margin-right: 0;
-    margin-bottom: 0;
+    position: absolute;
+    top: 60px;
+    left: 30px;
 }
+
 .vtoroi {
+    position: relative;
 }
+
 .nol_vtori {
     font-size: 100px;
     font-weight: 700;
     margin: 0;
     color: #E7E7E7;
+    position: relative;
 }
+
 .vtoroi_opisanie {
-    margin-top: 0;
-    margin-left: 30px;
-    margin-right: 0;
-    margin-bottom: 0;
+    position: absolute;
+    top: 60px;
+    left: 30px;
 }
+
 .treti {
-    margin-top: 70px;
+    margin-top: 100px;
+    position: relative;
 }
+
 .nol_treti {
     font-size: 100px;
     font-weight: 700;
     margin: 0;
     color: #E7E7E7;
+    position: relative;
 }
+
 .treti_opisanie {
-    margin-top: 0;
-    margin-left: 30px;
-    margin-right: 0;
-    margin-bottom: 0;
+    position: absolute;
+    top: 60px;
+    left: 30px;
 }
+
 .chetverti {
-    margin-top: 70px;
+    margin-top: 100px;
+    position: relative;
 }
+
 .nol_chetverti {
     font-size: 100px;
     font-weight: 700;
     margin: 0;
     color: #E7E7E7;
-}
-.chetverti_opisanie {
-    margin-top: 0;
-    margin-left: 30px;
-    margin-right: 0;
-    margin-bottom: 0;
+    position: relative;
 }
 
-.vigodi_content{
+.chetverti_opisanie {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+.vigodi_content {
     background: url(../img/content/pixe.png) no-repeat center/cover;
     height: 666px;
 }
 
-.shapka_vigodi{
+.shapka_vigodi {
     color: #FFFFFF;
     text-align: center;
     padding-top: 140px;
     margin-bottom: 80px;
 }
 
-.name_vigodi{
+.name_vigodi {
     font-size: 54px;
     font-weight: 600;
     margin: 0;
 }
 
-.opisanie_vigodi{
+.opisanie_vigodi {
     font-size: 20px;
     font-weight: 400;
 }
 
-.content_vigodi{
+.content_vigodi {
     width: 1119px;
     height: 211px;
     margin: auto;
@@ -420,16 +436,86 @@ body{
     display: flex;
 }
 
-.bloxxs{
+.bloxxs {
     height: 211px;
     width: 211px;
     background-color: #FFFFFF;
     border-radius: 5%;
     text-align: center;
 }
-.bloxxs_img{
+
+.bloxxs_img {
     height: 35px;
     width: 35px;
     margin-top: 50px;
     margin-bottom: 20px;
+}
+
+.Yslygi {
+    height: 900px;
+    width: 100%;
+}
+
+.one_block {
+    height: 265px;
+    max-width: 265px;
+    text-align: center;
+    border: 10px;
+    border-radius: 10%;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.foto1 {
+    height: 218px;
+    width: 260px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 265px;
+    width: 1120px;
+    margin-bottom: 70px;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 265px;
+    width: 1120px;
+}
+
+.yslygi_header {
+    text-align: center;
+}
+
+.name_yslygi {
+    font-size: 54px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 30px;
+    color: #E7E7E7;
+}
+
+.opisanie_yslygi {
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.yslugi_content {
+    text-align: center;
+}
+
+.btn5 {
+    border-radius: 4px;
+    text-align: center;
+    background: none;
+    min-width: 170px;
+    display: inline-block;
+    padding: 12px 16px;
+    margin-top: 30px;
 }
