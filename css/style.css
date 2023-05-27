@@ -594,3 +594,34 @@ body {
 .btn6 {
     margin-top: 80px;
 }
+
+.final_opisanie{
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-top: 90px;
+
+}
+
+.final{
+    text-align: center;
+    height: 502px;
+    background: url(../img/content/uuhuhuhuhuh.png) no-repeat center/cover;
+}
+.final_content{
+    text-align: center;
+    margin: auto;
+    width: 800px;
+}
+
+.left{
+    color: #FFFFFF;
+}
+
+.btn7{
+    background-color: black;
+    border-radius: 4px;
+    min-width: 170px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #FFFFFF;
+    padding: 12px 16px;
+}
