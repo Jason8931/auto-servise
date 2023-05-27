@@ -347,6 +347,7 @@ body {
     position: absolute;
     top: 60px;
     left: 30px;
+    color: black
 }
 
 .vtoroi {
@@ -384,6 +385,7 @@ body {
     position: absolute;
     top: 60px;
     left: 30px;
+    color: black;
 }
 
 .chetverti {
@@ -527,38 +529,43 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
-.five_header {
-}
+
+.five_header {}
+
 .name_five {
     font-size: 54px;
     margin: 0;
     padding-top: 50px;
 }
+
 .opisanie_five {
     font-size: 20px;
 }
+
 .five_content {
     text-align: center;
     width: 1000px;
     margin: auto;
 }
-.ikon_l {
-}
+
+.ikon_l {}
+
 .five_otzivi {
     margin-top: 100px;
     justify-content: space-between;
     display: flex;
 
 }
-.otziv1 {
-}
-.otziv {
-}
-.otziv2 {
-}
-.ikon_r {
-}
-.ikonki{
+
+.otziv1 {}
+
+.otziv {}
+
+.otziv2 {}
+
+.ikon_r {}
+
+.ikonki {
     margin: 0;
     text-align: center;
 }
@@ -567,15 +574,17 @@ body {
     text-align: center;
     height: 723px;
 }
-.primeri_header {
-}
+
+.primeri_header {}
+
 .primeri_name {
     font-size: 54px;
     color: #E7E7E7;
     margin-bottom: 0;
 }
-.primeru_opisanie {
-}
+
+.primeru_opisanie {}
+
 .primeri_content {
     padding-top: 90px;
     display: flex;
@@ -583,45 +592,83 @@ body {
     width: 1100px;
     margin: auto;
 }
-.otziv1 {
-}
-.otziv {
-}
-.otziv2 {
-}
+
+.otziv1 {}
+
+.otziv {}
+
+.otziv2 {}
 
 
 .btn6 {
     margin-top: 80px;
 }
 
-.final_opisanie{
+.final_opisanie {
     font-size: 28px;
     color: #FFFFFF;
     padding-top: 90px;
 
 }
 
-.final{
+.final {
     text-align: center;
     height: 502px;
     background: url(../img/content/uuhuhuhuhuh.png) no-repeat center/cover;
 }
-.final_content{
+
+.final_content {
     text-align: center;
     margin: auto;
     width: 800px;
 }
 
-.left{
+.left1 {
     color: #FFFFFF;
+    text-align: left;
+    padding-top: 60px;
 }
 
-.btn7{
+.btn7 {
     background-color: black;
     border-radius: 4px;
     min-width: 170px;
     border: 1px solid rgb(255, 255, 255);
     color: #FFFFFF;
     padding: 12px 16px;
+    margin-top: 20px;
+}
+
+
+.karta {
+    height: 224px;
+    background: url(../img/content/karta.png) no-repeat center/cover;
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+    padding-top: 60px;
+}
+
+.stroka1 {
+    height: 44px;
+    width: 360px;
+    border-radius: 4px;
+}
+
+.stroka2 {
+    height: 44px;
+    width: 360px;
+    border-radius: 4px;
+}
+
+.btn8 {
+    border-radius: 4px;
+    background: none;
+    min-width: 360px;
+    display: inline-block;
+    padding: 12px 16px;
+    border: 1px solid white;
+    color: rgb(255, 255, 255)
 }
